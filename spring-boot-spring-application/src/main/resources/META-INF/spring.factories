@@ -1,0 +1,7 @@
+# Initializers
+org.springframework.context.ApplicationContextInitializer=\
+cn.aegisa.spring.application.context.AfterApplicationContextInitializer,\
+cn.aegisa.spring.application.context.HelloWorldApplicationContextInitializer
+org.springframework.context.ApplicationListener=\
+cn.aegisa.spring.application.listener.HelloWorldApplicationListener,\
+cn.aegisa.spring.application.listener.AfterHelloWorldApplicationListener
